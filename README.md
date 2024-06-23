@@ -1,2 +1,2 @@
-# igdb-laravel-11
+# igdb-laravel
  Interact with the IGDB API.
