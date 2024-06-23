@@ -1,0 +1,30 @@
+{
+    "name": "zinapse/igdb-laravel",
+    "description": "Interact with the IGDB API from Laravel",
+    "homepage": "https://github.com/zinapse/igdb-laravel",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "laravel/framework": "^11",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zinapse\\IgdbLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Zinapse",
+            "email": "nick@zinapse.tech"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zinapse\\IgdbLaravel\\IgdbLaravelServiceProvider"
+            ]
+        }
+    }
+}
